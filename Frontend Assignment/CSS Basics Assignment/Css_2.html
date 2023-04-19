@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Background Colors and Images</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+    }
+
+    .section1 {
+      background-color: #4CAF50;
+      height: 200px;
+      padding: 30px;
+    }
+
+    .section2 {
+      background-color: #2196F3;
+      height: 400px;
+      padding: 30px;
+    }
+
+    .section3 {
+      
+      height: 600px;
+      background-image: url('https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      /* The background-attachment property is what makes the background image fixed */
+      background-attachment: fixed;
+      padding: 30px;
+    }
+
+    /* Just some basic styling for the text */
+    h1, p {
+      color: #fff;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="section1">
+    <h1>Section 1</h1>
+  </div>
+  <div class="section2">
+    <h1>Section 2</h1>
+  </div>
+  <div class="section3">
+    <h1>Section 3</h1>
+    <p>This is some text over a fixed background image.</p>
+  </div>
+</body>
+</html>

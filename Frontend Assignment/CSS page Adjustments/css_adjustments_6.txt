@@ -1,0 +1,7 @@
+visibility:hidden and display:none are both CSS properties that can be used to hide elements on a web page, but they have different effects.
+
+visibility:hidden hides an element, but it still takes up space on the page. This means that the element is not visible, but it still affects the layout of the page. For example, if you hide an image with visibility:hidden, the space where the image would be displayed will still be reserved.
+
+display:none hides an element completely, including its space on the page. This means that the element is not visible and does not affect the layout of the page. For example, if you hide an image with display:none, the space where the image would be displayed will not be reserved.
+
+In summary, visibility:hidden hides an element but it still takes up space, while display:none completely removes the element and its space from the page.

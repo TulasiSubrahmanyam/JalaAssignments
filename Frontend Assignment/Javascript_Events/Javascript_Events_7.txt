@@ -1,0 +1,1 @@
+Cookies are small text files stored by websites on a user's device to remember preferences, track sessions, manage authentication, gather analytics, and serve targeted ads. Websites must comply with data protection and privacy laws and provide options for users to manage cookie settings.

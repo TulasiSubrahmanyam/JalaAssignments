@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hero Image Example</title>
+  <style>
+    /* Set background image for the hero container */
+    .hero {
+      background-image: url('https://coolwallpapers.me/picsup/5734049-hiking-wallpapers.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh; /* Set height to full viewport height */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+      font-size: 24px;
+    }
+
+    /* Add some overlay for text readability */
+    .hero::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity to your liking */
+    }
+
+    /* Add some padding to the hero content */
+    .hero-content {
+      padding: 20px;
+    }
+
+    /* Style for hero heading */
+    .hero-heading {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    /* Style for hero subheading */
+    .hero-subheading {
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="hero-content">
+      <h1 class="hero-heading">Welcome to My Website</h1>
+      <p class="hero-subheading">This is a simple hero image example</p>
+    </div>
+  </div>
+</body>
+</html>

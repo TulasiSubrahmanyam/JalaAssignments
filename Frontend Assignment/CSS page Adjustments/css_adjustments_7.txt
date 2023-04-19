@@ -1,0 +1,12 @@
+In HTML, elements are classified into two main categories: inline and block-level elements.
+
+Block-level elements: These are elements that take up the full width available on a web page and are stacked on top of each other vertically. Examples of block-level elements include <div>, <h1>, <p>, <ul>, <li>, <table>, <form>, etc. By default, block-level elements have a line break before and after them.
+
+Inline elements: These are elements that take up only as much width as necessary, and they do not create a line break before or after themselves. Examples of inline elements include <span>, <a>, <img>, <strong>, <em>, <input>, <button>, etc.
+
+Here are some key differences between block-level and inline elements:
+
+Block-level elements create a new line before and after themselves by default, while inline elements do not.
+Block-level elements take up the full width available, while inline elements only take up as much width as necessary.
+Block-level elements can contain both block-level and inline elements, while inline elements can only contain other inline elements and text.
+Block-level elements can have margin, padding, and width properties set on them, while inline elements cannot have their width and height properties set.

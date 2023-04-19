@@ -1,0 +1,5 @@
+Regarding the difference between target="_blank" and target="_self", these are values for the target attribute of an HTML link (<a> tag) and determine where the linked content will be displayed.
+
+target="_blank": This opens the linked content in a new browser window or tab, depending on the user's browser settings.
+target="_self": This opens the linked content in the same window or tab as the current page.
+In other words, target="_blank" creates a new browsing context, whereas target="_self" loads the linked content in the same browsing context.

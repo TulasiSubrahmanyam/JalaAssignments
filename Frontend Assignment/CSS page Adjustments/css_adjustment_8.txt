@@ -1,0 +1,21 @@
+In CSS (Cascading Style Sheets), selectors are patterns used to select and target HTML elements that you want to apply styles to.
+
+CSS selectors allow you to target specific elements based on their element type, attributes, classes, IDs, or position in the HTML document. This enables you to apply styles to elements with great precision and control.
+
+Here are some common CSS selectors:
+
+Element selector: Selects all elements of a specific type, such as p for paragraphs or h1 for headings.
+
+Class selector: Selects elements with a specific class attribute, using a period followed by the class name, such as .my-class.
+
+ID selector: Selects an element with a specific ID attribute, using a hash symbol followed by the ID name, such as #my-id.
+
+Attribute selector: Selects elements based on their attributes, such as [href] to select all elements with an href attribute or [data-custom] to select all elements with a data-custom attribute.
+
+Pseudo-class selector: Selects elements based on their state, such as :hover to select elements when they are being hovered over by the mouse.
+
+Descendant selector: Selects elements that are descendants of a particular element, such as ul li to select all li elements that are descendants of ul elements.
+
+Adjacent sibling selector: Selects the element immediately following another element, such as h1 + p to select the p element that immediately follows the h1 element.
+
+There are many more selectors available in CSS, but understanding these basics is a good starting point for applying styles to your HTML elements.

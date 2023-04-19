@@ -1,0 +1,9 @@
+1.HTML (Hypertext Markup Language) is a markup language used to structure content on the web. It is used to create the basic structure of web pages, including headings, paragraphs, lists, links, and more.
+
+2.HTML5 is the latest version of HTML and introduces many new elements and attributes that make it easier to create dynamic and interactive web pages. It also supports multimedia elements, such as video and audio, natively without the need for third-party plugins.
+
+3.CSS (Cascading Style Sheets) is a language used to describe the presentation of HTML and XML documents. It is used to control the layout, fonts, colors, and other visual aspects of web pages.
+
+4.JavaScript is a programming language that is used to create dynamic and interactive web pages. It is used to add behavior to web pages, such as responding to user actions, manipulating HTML and CSS, and communicating with servers.
+
+5.In summary, HTML is used for creating the basic structure of web pages, HTML5 is the latest version of HTML and includes new features, CSS is used for styling web pages, and JavaScript is used for creating dynamic and interactive web pages.

@@ -1,0 +1,9 @@
+
+
+Cell padding and cell spacing are terms commonly used in the context of HTML and CSS for controlling the layout and appearance of tables in web design. Here's a brief explanation of each:
+
+Cell padding: Cell padding refers to the space between the content of a table cell and the border of the cell. It is used to create spacing or padding around the content within a table cell. Cell padding is typically defined in CSS (Cascading Style Sheets) using the "padding" property, which allows you to specify the amount of space (in pixels or other units) to be added inside the cell.
+
+Cell spacing: Cell spacing refers to the space between adjacent cells in a table. It is used to create space between cells, creating gaps or spacing between the cells in a table. Cell spacing is typically defined in HTML (Hypertext Markup Language) using the "cellspacing" attribute, which allows you to specify the amount of space (in pixels or other units) to be added between cells in a table.
+
+Both cell padding and cell spacing are used to control the appearance and layout of tables, allowing you to add space between cells or around cell content to achieve the desired visual presentation. These properties can be adjusted to customize the spacing and appearance of tables in web pages according to design requirements.

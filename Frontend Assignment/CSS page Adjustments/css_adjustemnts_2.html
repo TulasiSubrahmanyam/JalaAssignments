@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Visibility and Display Example</title>
+	<style>
+		.container {
+			border: 2px solid black;
+			padding: 10px;
+			margin: 10px;
+			background-color: lightgray;
+		}
+
+		.visible {
+			visibility: visible;
+			display: block;
+		}
+
+		.hidden {
+			visibility: hidden;
+			display: inline;
+		}
+
+		.collapsed {
+			visibility: collapse;
+			display: contents;
+		}
+
+		.none {
+			display: none;
+		}
+
+		.inline {
+			display: inline;
+		}
+
+		.block {
+			display: block;
+		}
+
+		.contents {
+			display: contents;
+		}
+
+		.list-item {
+			display: list-item;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<p>Visibility and Display Example</p>
+		<p class="visible">This is a visible element with block display type.</p>
+		<p class="hidden">This is a hidden element with inline display type.</p>
+		<table class="collapsed">
+			<tr>
+				<td>This is a collapsed table cell with contents display type.</td>
+				<td>This is another collapsed table cell with contents display type.</td>
+			</tr>
+		</table>
+		<p class="none">This is a none element.</p>
+		<p class="inline">This is an inline element.</p>
+		<p class="block">This is a block element.</p>
+		<p class="contents">This is a contents element.</p>
+		<p class="list-item">This is a list-item element.</p>
+	</div>
+</body>
+</html>

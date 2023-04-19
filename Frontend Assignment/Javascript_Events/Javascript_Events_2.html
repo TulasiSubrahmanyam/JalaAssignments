@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validation Example</title>
+</head>
+<body>
+    <form id="myForm">
+        <input type="text" id="myTextBox" placeholder="Enter text here">
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        // Get the form element by its ID
+        var form = document.getElementById("myForm");
+
+        // Add a submit event listener to the form
+        form.addEventListener("submit", function(event) {
+            // Prevent form submission
+            event.preventDefault();
+            
+            // Get the text box value
+            var textBoxValue = document.getElementById("myTextBox").value;
+            
+            // Check if the text box is empty
+            if (textBoxValue === "") {
+                alert("Text box cannot be empty!");
+            } else {
+                // Perform form submission
+                form.submit();
+            }
+        });
+    </script>
+</body>
+</html>

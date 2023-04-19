@@ -1,0 +1,16 @@
+There are five values that the position property can take:
+
+static - This is the default position value of all elements. It means that the element will be positioned according to the normal flow of the document, and the top, right, bottom, left, and z-index properties will have no effect on it.
+
+relative - This value positions the element relative to its normal position in the document flow. You can use the top, right, bottom, and left properties to adjust the position of the element. When you set the position property to relative, the element remains in the normal flow of the document, and other elements will still be positioned as if it were not moved.
+
+fixed - This value positions the element relative to the viewport, which means that it will remain in the same position even if the page is scrolled. This is commonly used for headers, footers, or other elements that you want to remain fixed in place as the user scrolls the page.
+
+absolute - This value positions the element relative to its nearest positioned ancestor element. If there is no positioned ancestor element, then it will be positioned relative to the document body. When you set the position property to absolute, the element is taken out of the normal flow of the document, and other elements will be positioned as if it were not there.
+
+sticky - This value is a hybrid of relative and fixed. It positions the element relative to its normal position in the document flow until the user scrolls past a certain point. After that point, it becomes fixed in place, like a fixed element.
+
+
+
+
+

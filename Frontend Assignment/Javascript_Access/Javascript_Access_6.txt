@@ -1,0 +1,24 @@
+ here are some keywords and existing functions in JavaScript:
+
+Keywords:
+var, let, const: used to declare variables
+function: used to define a function
+if, else, else if: used for conditional statements
+switch, case, break: used for switch statements
+for, while, do-while: used for loops
+try, catch, finally: used for error handling
+return: used to return a value from a function
+
+Functions:
+alert(): displays an alert message
+console.log(): logs information to the console
+prompt(): displays a prompt for user input
+confirm(): displays a confirmation dialog box
+parseInt(): converts a string to an integer
+parseFloat(): converts a string to a floating-point number
+String(): converts a value to a string
+Number(): converts a value to a number
+Math.random(): generates a random number
+Date(): creates a new Date object
+setTimeout(): executes a function after a specified delay
+setInterval(): executes a function repeatedly at a specified interval.

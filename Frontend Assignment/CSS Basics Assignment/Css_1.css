@@ -1,0 +1,6 @@
+/* This is a CSS comment within a CSS block */
+h1 {
+  font-size: 24px;
+  /* This is another CSS comment within the same block */
+  color: #333;
+}

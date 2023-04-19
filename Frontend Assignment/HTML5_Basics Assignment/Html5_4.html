@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Webpage</title>
+	<style>
+        /* This styles the link when the mouse hovers over it */
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+/* This styles the first item in the list */
+ul li:first-child {
+	color: blue;
+}
+
+/* This styles the last paragraph */
+p:last-of-type {
+	font-style: italic;
+}
+
+/* This styles the special paragraph */
+p.special {
+	background-color: yellow;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+/* This styles the first paragraph */
+p.first {
+	font-weight: bold;
+}
+
+/* This styles the last paragraph */
+p.last {
+	font-size: 24px;
+}
+
+/* This styles the before and after pseudo-elements of the div */
+div::before {
+	content: "Before the div";
+	color: green;
+}
+
+div::after {
+	content: "After the div";
+	color: red;
+}
+
+    </style>
+</head>
+<body>
+	<h1>Welcome to My Webpage</h1>
+	<p>This is some text. <a href="#">This is a link</a>.</p>
+	<p>Here is some more text.</p>
+	<div>
+		<p>This is a paragraph in a div.</p>
+	</div>
+	<ul>
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+	</ul>
+	<p class="special">This is a special paragraph.</p>
+	<p class="first">This is the first paragraph.</p>
+	<p class="last">This is the last paragraph.</p>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Input Attribute Example</title>
+  <style>
+    /* Some basic styles to make the page look nicer */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+    form {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    input[type=text],
+    input[type=password],
+    input[type=submit],
+    input[type=reset],
+    button {
+      margin-bottom: 10px;
+      display: block;
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    input[type=submit],
+    input[type=reset],
+    button {
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+    input[type=submit]:hover,
+    input[type=reset]:hover,
+    button:hover {
+      background-color: #3e8e41;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <h1>Input Attribute Example</h1>
+    <label for="text-input">Text Input:</label>
+    <input type="text" id="text-input" name="text-input" placeholder="Enter text here...">
+    <label for="password-input">Password Input:</label>
+    <input type="password" id="password-input" name="password-input" placeholder="Enter password here...">
+    <label for="submit-input">Submit Input:</label>
+    <input type="submit" id="submit-input" name="submit-input" value="Submit">
+    <label for="reset-input">Reset Input:</label>
+    <input type="reset" id="reset-input" name="reset-input" value="Reset">
+   <label>Radio Input:</label>
+   <div style="margin: 10px;">
+   <div>
+     
+     <input type="radio" id="radio-input-1" name="radio-input" value="radio-1" style="margin:10px;padding: 0px;">
+     <label for="radio-input-1">Radio 1</label>
+    </div>
+    <div>
+     
+      <input type="radio" id="radio-input-2" name="radio-input" value="radio-2" style="margin:10px;padding: 0px;">
+      <label for="radio-input-2">Radio 2</label>
+    </div>
+    <div>
+    
+      <input type="radio" id="radio-input-3" name="radio-input" value="radio-3" style="margin:10px;padding: 0px;">
+      <label for="radio-input-3">Radio 3</label>
+    </div>
+</div>
+    <label>Checkbox Input:</label>
+    <div style="margin: 10px;">
+    <div >
+      <input type="checkbox" id="checkbox-input-1" name="checkbox-input-1" value="checkbox-1" style="margin:10px;padding: 0px;">
+      <label for="checkbox-input-1">Checkbox 1</label>
+    </div>
+    <div>
+      <input type="checkbox" id="checkbox-input-2" name="checkbox-input-2" value="checkbox-2" style="margin:10px;padding: 0px;">
+      <label for="checkbox-input-2">Checkbox 2</label>
+    </div>
+    <div>
+  </div>
+  <div style="margin-top: 10px;">
+    <label for="button-input">Button Input:</label>
+    <button id="button-input" name="button-input" type="button">Click Me</button>
+    </div>
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<header>: The <header> tag defines a section of a web page that typically contains the page's logo, title, and other introductory information.
+
+<nav>: The <nav> tag defines a section of a web page that contains links to other pages or sections within the website. This is typically used for site navigation menus.
+
+<main>: The <main> tag defines the main content area of a web page. It should only be used once on a page and contains the main content of the page, such as articles, blog posts, or product listings.
+
+<article>: The <article> tag defines a self-contained piece of content within a web page, such as a blog post or news article. It is typically used to provide additional structure and context to the page's content.
+
+<footer>: The <footer> tag defines a section of a web page that typically contains copyright information, contact details, and other related information.

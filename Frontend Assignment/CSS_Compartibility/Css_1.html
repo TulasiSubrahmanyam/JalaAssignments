@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table with table-layout</title>
+  <style>
+    /* Table with fixed layout */
+    .table-fixed {
+      table-layout: fixed;
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    /* Table with none layout */
+    .table-none {
+      table-layout: none;
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    /* Table cell styles */
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Table with fixed layout</h2>
+  <table class="table-fixed">
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+      <th>Header 3</th>
+    </tr>
+    <tr>
+      <td>Row 1, Cell 1 Example of the cell length not change in layout fixed</td>
+      <td>Row 1, Cell 2</td>
+      <td>Row 1, Cell 3</td>
+    </tr>
+    <tr>
+      <td>Row 2, Cell 1</td>
+      <td>Row 2, Cell 2</td>
+      <td>Row 2, Cell 3</td>
+    </tr>
+  </table>
+
+  <h2>Table with none layout</h2>
+  <table class="table-none">
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+      <th>Header 3</th>
+    </tr>
+    <tr>
+      <td>Row 1, Cell 1 Example of the cell length  change in layout none</td>
+      <td>Row 1, Cell 2</td>
+      <td>Row 1, Cell 3</td>
+    </tr>
+    <tr>
+      <td>Row 2, Cell 1</td>
+      <td>Row 2, Cell 2</td>
+      <td>Row 2, Cell 3</td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,17 @@
+HTML5 introduced several new tags and attributes that were not present in HTML4. Here are the differences for the following tags:
+
+<audio> and <video>: HTML5 introduced new tags for embedding audio and video content directly into web pages, which were not present in HTML4. These tags allow for greater control and flexibility over how audio and video content is displayed and played on a web page.
+
+<canvas>: HTML5 introduced the <canvas> tag, which allows developers to create dynamic, interactive graphics and animations directly within a web page. This tag was not present in HTML4.
+
+<header>, <nav>, and <footer>: HTML5 introduced several new semantic tags that are used to define the structure and layout of a web page. These include <header> for the top section of the page, <nav> for the navigation menu, and <footer> for the bottom section of the page. These tags were not present in HTML4.
+
+<section>, <article>, and <aside>: HTML5 introduced several additional semantic tags that are used to define the content and structure of a web page. <section> is used to define a section of related content, <article> is used to define a self-contained piece of content, and <aside> is used to define content that is related to the main content of the page, but not an integral part of it. These tags were not present in HTML4.
+
+<input>: HTML5 introduced several new attributes for the <input> tag, including support for new input types like email, url, and date. These attributes allow for more specific and standardized input fields on forms.
+
+Overall, HTML5 introduced several new tags and attributes that provide greater flexibility, control, and semantic structure to web pages, which were not present in HTML4.
+
+
+
+

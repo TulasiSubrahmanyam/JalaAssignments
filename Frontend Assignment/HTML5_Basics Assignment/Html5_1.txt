@@ -1,0 +1,13 @@
+An HTML document consists of several elements, including tags, attributes, and content. Here are some of the basic elements of an HTML document:
+
+1.HTML tag: The HTML tag is the root element of an HTML document. It's the first element in the document and is typically written as <html>. The opening tag is followed by the <head> and <body> sections.
+
+2.Head section: The head section contains metadata about the document, such as the title, author, description, and links to external resources like stylesheets and scripts. It's written using the <head> tag.
+
+3.Body section: The body section contains the visible content of the web page, such as text, images, links, and other elements. It's written using the <body> tag.
+
+4.Tags: Tags are used to mark up the content of an HTML document. For example, the <h1> tag is used to create a heading, the <p> tag is used to create a paragraph, and the <a> tag is used to create a link.
+
+5.Attributes: Attributes are used to provide additional information about HTML elements. For example, the href attribute is used to specify the URL of a link, and the src attribute is used to specify the URL of an image.
+
+6.Comments: Comments are used to add notes to an HTML document that are not displayed on the web page. Comments are written using the <!-- --> syntax.

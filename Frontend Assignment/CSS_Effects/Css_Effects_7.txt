@@ -1,0 +1,9 @@
+The box model consists of four main parts:
+
+Content - The content of the element, which includes text, images, and other media.
+
+Padding - The space between the content and the element's border. Padding can be added to the top, right, bottom, and left of the content.
+
+Border - A border that surrounds the element's padding and content. The border can be customized with different styles, widths, and colors.
+
+Margin - The space between the border and any neighboring elements. Margins can be added to the top, right, bottom, and left of the element.

@@ -1,0 +1,1 @@
+<span> is used to apply style or formatting to a small piece of content within a larger block of text, while <div> is used to define a larger section of a web page and create a structural layout for the page

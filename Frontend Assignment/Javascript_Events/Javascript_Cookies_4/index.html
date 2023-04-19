@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cookie Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            margin-bottom: 10px;
+        }
+
+        input {
+            margin-bottom: 10px;
+            padding: 5px;
+            width: 200px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            width: 150px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .message {
+            margin-top: 10px;
+            color: #007bff;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+    <script>
+        // Function to set a cookie
+        function setCookie(cookieName, cookieValue, expiryDays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (expiryDays * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = cookieName + "=" + cookieValue + "; " + expires + "; path=/";
+            console.log(cookieName + "=" + cookieValue + "; " + expires + "; path=/")
+        }
+
+        // Function to get a cookie
+        function getCookie(cookieName) {
+            var cookieList = document.cookie.split("; ");
+            for (var i = 0; i < cookieList.length; i++) {
+                var cookie = cookieList[i].split("=");
+                if (cookie[0] === cookieName) {
+                    return cookie[1];
+                }
+            }
+            return null;
+        }
+
+        // Function to check if a cookie exists
+        function checkCookie(cookieName) {
+            var cookieValue = getCookie(cookieName);
+            if (cookieValue !== null) {
+                alert("Cookie exists. Value: " + cookieValue);
+            } else {
+                alert("Cookie does not exist.");
+            }
+        }
+
+        // Function to handle form submission
+        function submitForm() {
+            var cookieName = document.getElementById("cookieName").value;
+            var cookieValue = document.getElementById("cookieValue").value;
+            var expiryDays = document.getElementById("expiryDays").value;
+            if (cookieName === "" || cookieValue === "" || expiryDays === "") {
+            document.getElementById("formMessage").innerText = "Please enter details.";
+        } else {
+            setCookie(cookieName, cookieValue, expiryDays);
+            document.getElementById("formMessage").innerText = "Cookie set successfully!";
+        }
+        }
+    </script>
+</head>
+<body>
+    <h1>Cookie Example</h1>
+    <form onsubmit="return false;">
+        <label for="cookieName">Cookie Name:</label>
+        <input type="text" id="cookieName" required>
+        <br>
+        <label for="cookieValue">Cookie Value:</label>
+        <input type="text" id="cookieValue" required>
+        <br>
+        <label for="expiryDays">Expiry Days:</label>
+        <input type="number" id="expiryDays" required>
+        <br>
+        <button onclick="submitForm()">Set Cookie</button>
+        <div id="formMessage" class="message"></div>
+    </form>
+    </body>
+    </html>
+

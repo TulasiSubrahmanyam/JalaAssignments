@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fruit Sorting</title>
+    <script>
+      function sortFruitsDescending() {
+        var fruits = ["Apple", "Banana", "Cherry", "Durian", "Elderberry"];
+        fruits.sort(function(a, b) {
+          return b.localeCompare(a);
+        });
+        document.getElementById("fruitList").innerHTML = fruits.join(", ");
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Fruit Sorting</h1>
+    <p>Click the button below to sort the list of fruits in descending order:</p>
+    <button onclick="sortFruitsDescending()">Sort Fruits</button>
+    <p id="fruitList">Apple, Banana, Cherry, Durian, Elderberry</p>
+  </body>
+</html>

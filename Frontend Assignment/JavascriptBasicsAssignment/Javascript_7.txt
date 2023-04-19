@@ -1,0 +1,13 @@
+JavaScript and Java are two different programming languages that share a few similarities but are fundamentally different in many ways. Here are some key differences:
+
+Syntax: While both languages have similar syntax in terms of using semicolons and curly braces, JavaScript has a more forgiving syntax than Java. In JavaScript, variables can be declared without a type and functions can be created without a return type.
+
+Type System: Java is a statically typed language, which means that variable types must be declared at compile-time and cannot be changed at runtime. JavaScript, on the other hand, is dynamically typed, which means that variable types are determined at runtime.
+
+Execution Environment: Java requires a runtime environment called the Java Virtual Machine (JVM) to execute code. JavaScript, on the other hand, is executed directly in the browser or in a server-side environment like Node.js.
+
+Object Orientation: Both languages support object-oriented programming (OOP), but they have different approaches to it. Java is a pure OOP language, which means that all code must be written in classes and objects. JavaScript has a prototype-based inheritance model that allows objects to inherit properties and methods from other objects.
+
+Purpose: Java is commonly used for building enterprise applications, desktop applications, and Android mobile apps. JavaScript is primarily used for front-end web development, building user interfaces, and creating dynamic web applications.
+
+Overall, while Java and JavaScript share some similarities, they are fundamentally different languages with different use cases and purposes.

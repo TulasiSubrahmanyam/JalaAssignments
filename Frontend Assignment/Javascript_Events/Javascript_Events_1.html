@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button Event Listener Example</title>
+</head>
+<body>
+    <button id="myButton">Click me to display current date and time</button>
+
+    <script>
+        // Get the button element by its ID
+        var button = document.getElementById("myButton");
+
+        // Add a click event listener to the button
+        button.addEventListener("click", function() {
+            // Get the current date and time
+            var currentDate = new Date();
+            
+            // Format the date and time to a string
+            var formattedDateTime = currentDate.toLocaleString();
+            
+            // Display the current date and time in an alert
+            alert("Current Date and Time: " + formattedDateTime);
+        });
+    </script>
+</body>
+</html>

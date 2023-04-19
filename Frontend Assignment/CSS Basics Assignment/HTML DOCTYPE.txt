@@ -1,0 +1,1 @@
+The HTML DOCTYPE is a code that declares the version of HTML or XHTML used in a web page. It's important because it determines the parsing mode for browsers, ensures cross-browser compatibility, and validates HTML code.

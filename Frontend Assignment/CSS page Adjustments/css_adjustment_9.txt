@@ -1,0 +1,17 @@
+In CSS, the outline-style property is used to set the line style for the outline of an element.
+
+The outline-style property can take a variety of values, including:
+
+dotted: Creates a dotted line outline
+dashed: Creates a dashed line outline
+solid: Creates a solid line outline
+double: Creates a double line outline
+groove: Creates a 3D groove outline
+ridge: Creates a 3D ridge outline
+inset: Creates a 3D inset outline
+outset: Creates a 3D outset outline
+The default value for outline-style is none, which means that no outline is displayed.
+
+button {
+  outline-style: dotted;
+}

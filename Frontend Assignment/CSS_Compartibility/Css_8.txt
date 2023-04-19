@@ -1,0 +1,1 @@
+Form attributes are HTML (Hypertext Markup Language) attributes that are used to define and customize the behavior and appearance of HTML forms on web pages. HTML forms are used to collect user input, such as submitting data, and form attributes provide additional settings and properties to control how forms behave and appear. Here are some commonly used form attributes:

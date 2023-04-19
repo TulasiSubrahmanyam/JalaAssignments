@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Smooth Scroll to Top and Bottom</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+			line-height: 1.5;
+			font-size: 16px;
+		}
+		.container {
+			padding: 20px;
+			max-width: 800px;
+			margin: 0 auto;
+		}
+		a {
+			color: #333;
+			text-decoration: none;
+			display: block;
+			margin: 20px 0;
+			text-align: center;
+			font-size: 20px;
+			padding: 10px;
+			border: 2px solid #333;
+			border-radius: 5px;
+			transition: all 0.3s ease-in-out;
+		}
+		a:hover {
+			background-color: #333;
+			color: #fff;
+		}
+		#top-link, #bottom-link {
+			position: fixed;
+			width: 90px;
+			height: 20px;
+			right: 30px;
+			font-size: 16px;
+			background-color: #333;
+			color: #fff;
+			padding: 5px;
+            margin: 10px;
+            border: solid none;
+			border-radius: 6px;
+			text-align: center;
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
+		}
+		#top-link:hover, #bottom-link:hover {
+			background-color: #555;
+		}
+		#top-link {
+			bottom: 20px;
+		}
+		#bottom-link {
+			bottom: 70px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+        <a id="top-link" href="#">Top</a>
+        <a id="bottom-link" href="#">Bottom</a>
+        <div>
+		<h1>Smooth Scroll to Top and Bottom</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel venenatis magna. Curabitur at risus id urna dignissim aliquet. Duis dictum tortor vel mauris viverra tempor. In hac habitasse platea dictumst. Quisque pretium tellus risus, eu pellentesque tellus pellentesque et. Sed fermentum vel elit in lobortis. Nam pharetra ullamcorper neque, eu viverra nulla aliquet et. Vestibulum aliquet turpis non pharetra consectetur. Vivamus condimentum hendrerit dui, ac luctus risus vestibulum id. Aenean auctor vel felis ac sagittis.</p>
+		<p>Mauris pharetra suscipit diam, vitae pharetra eros finibus ut. Nulla facilisi. Sed convallis, lacus sit amet pretium fringilla, leo nisi placerat mauris, ut molestie libero nisi vel massa. Suspendisse imperdiet massa ac tortor finibus interdum. Proin sodales urna purus, vel maximus augue ultricies et. Fusce vitae ante ultricies, rutrum eros et, vulputate dui. Duis eget mi tellus. Donec eu ex rutrum, tincidunt mauris vel, maximus elit. Suspendisse dictum posuere est, sit amet malesuada dolor facilisis ac. Maecenas posuere commodo dolor eget dapibus. Aenean pulvinar in dolor ac commodo. Duis ullamcorper dui a nisi consectetur, sed blandit purus consequat. Vivamus laoreet, ex non commodo dignissim, mauris odio feugiat justo, vel suscipit nunc lectus quis nibh. Proin non lorem non est consectetur bibendum. Pellentesque maximus malesuada sapien, eget semper tellus lacinia vitae.</p>
+		<p>Etiam ullamcorper eleifend malesuada. Donec pharetra vel nisl eu laoreet. Nam sed ante sit amet turpis molestie malesuada. Fusce in velit in velit interdum rutrum. Donec varius urna sed quam bibendum malesuada. Nunc ullamcorper felis elit, eu pulvinar arcu bibendum at. Aenean sollicitudin euismod ante, vel molestie nibh pulvinar sit amet. Duis nec ultrices ex. Curabitur ac sagittis est, id lobortis ex. Duis dignissim, eros vel laoreet gravida, justo leo lobortis ipsum, sit amet cursus lacus enim eget odio. Vivamus vehicula consectetur leo, eu interdum nibh vehicula sed. Ut ornare tincidunt leo non malesuada. Praesent mattis lectus sit amet turpis rhoncus, ac pellentesque ipsum varius. Pellentesque vel pharetra elit. Donec tincidunt mi vitae eleifend congue.</p>
+		<p>Maecenas ultrices sapien in est sagittis, quis sagittis lacus ultricies. Nulla bibendum nisl id gravida convallis. Sed nec nisl ac justo dictum finibus in a tellus. Ut tincidunt orci nulla, vel aliquam nibh auctor eget. Integer aliquet sem ut magna gravida, in dapibus turpis maximus. Nulla faucibus mollis mauris.Phasellus lobortis lorem euismod dui iaculis, nec blandit purus posuere. Etiam faucibus euismod augue, nec vestibulum lacus ultricies vel. Aliquam accumsan ligula felis, sit amet imperdiet risus tincidunt et. Nulla ac est tincidunt, malesuada lorem at, aliquet lacus. Vivamus bibendum tristique nunc, vel facilisis elit iaculis eget. </p>
+        </div>
+    </div>
+   
+    
+    <script>
+        const topLink = document.getElementById('top-link');
+        const bottomLink = document.getElementById('bottom-link');
+    
+      
+    
+        // Scroll to top when the user clicks the top link
+        topLink.addEventListener('click', (event) => {
+            event.preventDefault();
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: 'smooth'
+            });
+        });
+    
+        // Scroll to bottom when the user clicks the bottom link
+        bottomLink.addEventListener('click', (event) => {
+            event.preventDefault();
+            window.scrollTo({
+                top: document.body.scrollHeight,
+                left: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
+
