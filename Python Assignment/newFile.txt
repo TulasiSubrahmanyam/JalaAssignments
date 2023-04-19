@@ -1,0 +1,6 @@
+hello very welcome to class.
+This is the Jala Python test Questions.
+data files were developed as a means to store data.
+ A lot of the times, data in this format is either placed in a comma separated
+  value format or a tab separated value format.
+ Along with that variation, the file may also be in text file format or in binary.
