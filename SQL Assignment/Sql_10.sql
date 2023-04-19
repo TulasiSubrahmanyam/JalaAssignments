@@ -1,0 +1,1 @@
+select sname,city from salespeople where comm >0.10 and city='London'

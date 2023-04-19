@@ -1,0 +1,2 @@
+/*All orders credited to the same salesperson who services Hoffman.*/
+Select onum, sname, cname, amt from orders a, salespeople b, cust c where a.snum = b.snum and a.cnum = c.cnum and a.snum = ( select snum from orders where cnum = ( select cnum from cust where cname = 'Hoffman')); 

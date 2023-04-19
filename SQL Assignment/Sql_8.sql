@@ -1,0 +1,1 @@
+Select CNAME from cust WHERE CITY='San Jose' or RATING>200;

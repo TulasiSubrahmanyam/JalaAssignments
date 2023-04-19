@@ -1,0 +1,1 @@
+Select ONUM from orders where amt != 0 or amt is not null;
